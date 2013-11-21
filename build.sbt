@@ -16,7 +16,3 @@ publishTo <<= version { v => Some {
 }}
 
 credentials += Credentials(Path.userHome / ".config" / "xsbt-sh" / "nexus.config")
-
-crossBuildingSettings
-
-CrossBuilding.crossSbtVersions := Seq("0.12", "0.13")
